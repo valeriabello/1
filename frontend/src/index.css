@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Personaliza la barra de desplazamiento para todo el sitio */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #555;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ebebeb;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1b1b1b;
+    
+  }
